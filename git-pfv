@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for i in `git fast-export --no-data HEAD $1 | grep 'M 1' | cut -d ' ' -f 3`; do
+    git cat-file -p $i;
+    printf '\n\n\n\n\n-----------------------------------------------------------\n\n\n\n\n';
+done | less
