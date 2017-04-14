@@ -8,11 +8,13 @@ history of git.
 1. make a ~/bin directory if it doesn't already exist
 
   `mkdir ~/bin`
-1. add ~/bin to your PATH in your .bashrc / .zshrc / ... if it's not
+  
+2. add ~/bin to your PATH in your .bashrc / .zshrc / ... if it's not
    already there
 
-   `export PATH=~/bin:$PATH`
-1. copy git-pfv to your ~/bin directory
+  `export PATH=~/bin:$PATH`
+  
+3. copy git-pfv to your ~/bin directory
 
   `cp git-pfv ~/bin`
 
